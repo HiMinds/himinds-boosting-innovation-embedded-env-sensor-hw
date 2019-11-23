@@ -4,6 +4,9 @@ HiMinds Open Source Wireless Environmental Sensor HW
 This project is based on the work done bý OLIMEX. Link to their [project page](https://github.com/OLIMEX/ESP32-DevKit-LiPo)
 For other credits please refer to our [Medium ariticles](https://medium.com/himinds/open-source-wireless-environmental-sensor-part-1-requirements-8598c5b5f503).
 
+## Open Source
+An application has been sent to get the hardware certified by the Open Source Hardware Association. 
+
 
 ## License
 * Hardware is released under Apache 2.0 License
