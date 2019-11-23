@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name hm-env-sensor)(type KiCad)(uri ${KIPRJMOD}/hm-env-sensor.pretty)(options "")(descr ""))
+)

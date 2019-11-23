@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name hm-env-sensor)(type Legacy)(uri ${KIPRJMOD}/hm-env-sensor.lib)(options "")(descr ""))
+  (lib (name hm-env-sensor-rescue)(type Legacy)(uri ${KIPRJMOD}/hm-env-sensor-rescue.lib)(options "")(descr ""))
+)
