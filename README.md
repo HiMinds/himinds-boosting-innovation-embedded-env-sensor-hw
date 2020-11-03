@@ -4,7 +4,7 @@ HiMinds Open Source Wireless Environmental Sensor HW.
 ![](./pics/hand.png)
 
 
-##Rev B
+## Rev B
 The second generation of the hardware is based on the first version of the hardware but we have made several improvements. It is a rechargeable battery-operated wireless sensor that can measure:
 
 * Carbon dioxide (CO₂) levels
