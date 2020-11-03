@@ -1,11 +1,35 @@
-# himinds-boosting-innovation-embedded-env-sensor-hw
-HiMinds Open Source Wireless Environmental Sensor HW
+# himinds-env-sensor-hw
+HiMinds Open Source Wireless Environmental Sensor HW.
 
-This project is based on the work done bý OLIMEX. Link to their [project page](https://github.com/OLIMEX/ESP32-DevKit-LiPo)
+![](./pics/hand.png)
+
+
+##Rev B
+The second generation of the hardware is based on the first version of the hardware but we have made several improvements. It is a rechargeable battery-operated wireless sensor that can measure:
+
+* Carbon dioxide (CO₂) levels
+* Temperature with ±1.0°C accuracy
+* Barometric pressure with 1 hPa absolute accuracy
+* Humidity with ±3% accuracy
+* Volatile organic compounds (VOC) gas sensor
+* Tamper detection
+* Sound level meter 
+
+The project is described in our [Medium articles](https://medium.com/himinds/himinds-wireless-environmental-sensor-gen-2-part-1-requirements-37ee416b31b).
+
+## Rev A
+
+The first version of the hardware, was based on the work done by OLIMEX. Link to their [project page](https://github.com/OLIMEX/ESP32-DevKit-LiPo)
 For other credits please refer to our [Medium ariticles](https://medium.com/himinds/open-source-wireless-environmental-sensor-part-1-requirements-8598c5b5f503).
 
-## Open Source
-An application has been sent to get the hardware certified by the Open Source Hardware Association. 
+
+
+## Open Source Hardware
+The hardware is certified by OSHWA’s Open Source Hardware Certification program.
+It is the first certification given to a Swedish project. Link to [OSHWA certification](
+https://certification.oshwa.org/se000001.html).
+
+![](./pics/oshw-logo-200-px.png)
 
 
 ## License

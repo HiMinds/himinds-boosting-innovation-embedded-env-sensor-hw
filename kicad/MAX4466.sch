@@ -1,0 +1,475 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title "hm-env-sensor"
+Date "2020-06-04"
+Rev "B"
+Comp "HiMinds"
+Comment1 "https://www.himinds.com"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Microphone MK1
+U 1 1 5EC284CD
+P 4600 3750
+F 0 "MK1" H 4730 3796 50  0000 L CNN
+F 1 "Microphone" H 4730 3705 50  0000 L CNN
+F 2 "hm-env-sensor:MIC_CMA-4544PF-W" V 4600 3850 50  0001 C CNN
+F 3 "~" V 4600 3850 50  0001 C CNN
+	1    4600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L hm-env-sensor:MAX4466 U10
+U 1 1 5EC28B35
+P 6500 3350
+F 0 "U10" H 6500 3425 50  0000 C CNN
+F 1 "MAX4466" H 6500 3334 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 6500 3350 50  0001 C CNN
+F 3 "" H 6500 3350 50  0001 C CNN
+	1    6500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L hm-env-sensor-rescue:4.7KOHM-1_10W-1%(0603)-SparkFun_BME280_Breakout_v10-eagle-import-ESP32-DevKit-Lipo_Rev_A1-rescue R?
+U 1 1 5EC547B6
+P 4600 3250
+AR Path="/5EBC2AFC/5EC547B6" Ref="R?"  Part="1" 
+AR Path="/5EC547B6" Ref="R?"  Part="1" 
+AR Path="/5EC5C0AC/5EC547B6" Ref="R25"  Part="1" 
+F 0 "R25" H 4450 3309 59  0000 L BNN
+F 1 "1k/R0603" H 4350 3100 59  0000 L BNN
+F 2 "OLIMEX_RLC-FP:R_0603_5MIL_DWS" H 4600 3250 50  0001 C CNN
+F 3 "" H 4600 3250 50  0001 C CNN
+	1    4600 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hm-env-sensor-rescue:4.7KOHM-1_10W-1%(0603)-SparkFun_BME280_Breakout_v10-eagle-import-ESP32-DevKit-Lipo_Rev_A1-rescue R?
+U 1 1 5EC555EB
+P 4600 2750
+AR Path="/5EBC2AFC/5EC555EB" Ref="R?"  Part="1" 
+AR Path="/5EC555EB" Ref="R?"  Part="1" 
+AR Path="/5EC5C0AC/5EC555EB" Ref="R23"  Part="1" 
+F 0 "R23" H 4450 2809 59  0000 L BNN
+F 1 "1k/R0603" H 4500 2600 59  0000 L BNN
+F 2 "OLIMEX_RLC-FP:R_0603_5MIL_DWS" H 4600 2750 50  0001 C CNN
+F 3 "" H 4600 2750 50  0001 C CNN
+	1    4600 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDA #PWR052
+U 1 1 5EC57430
+P 4600 4050
+F 0 "#PWR052" H 4600 3800 50  0001 C CNN
+F 1 "GNDA" H 4605 3877 50  0000 C CNN
+F 2 "" H 4600 4050 50  0001 C CNN
+F 3 "" H 4600 4050 50  0001 C CNN
+	1    4600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4050 4600 3950
+Wire Wire Line
+	4600 3550 4600 3500
+Wire Wire Line
+	4600 3050 4600 3000
+$Comp
+L hm-env-sensor-rescue:C-OLIMEX_RCL-ESP32-DevKit-Lipo_Rev_A1-rescue C?
+U 1 1 5EC8548F
+P 5050 3250
+AR Path="/5EC8548F" Ref="C?"  Part="1" 
+AR Path="/5EC5C0AC/5EC8548F" Ref="C13"  Part="1" 
+F 0 "C13" V 5000 3025 50  0000 L CNN
+F 1 "100nF/50V/20%/Y5V/C0603" V 5000 3300 25  0000 L CNN
+F 2 "OLIMEX_RLC-FP:C_0603_5MIL_DWS" H 5050 3250 60  0001 C CNN
+F 3 "" H 5050 3250 60  0000 C CNN
+F 4 "Value 1" H 5050 3250 60  0001 C CNN "Fieldname 1"
+F 5 "Value2" H 5050 3250 60  0001 C CNN "Fieldname2"
+F 6 "Value3" H 5050 3250 60  0001 C CNN "Fieldname3"
+	1    5050 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L hm-env-sensor-rescue:C-OLIMEX_RCL-ESP32-DevKit-Lipo_Rev_A1-rescue C?
+U 1 1 5EC88D42
+P 5350 3500
+AR Path="/5EC88D42" Ref="C?"  Part="1" 
+AR Path="/5EC5C0AC/5EC88D42" Ref="C14"  Part="1" 
+F 0 "C14" V 5300 3275 50  0000 L CNN
+F 1 "10nF/50V/20%/Y5V/C0603" V 5450 3200 25  0000 L CNN
+F 2 "OLIMEX_RLC-FP:C_0603_5MIL_DWS" H 5350 3500 60  0001 C CNN
+F 3 "" H 5350 3500 60  0000 C CNN
+F 4 "Value 1" H 5350 3500 60  0001 C CNN "Fieldname 1"
+F 5 "Value2" H 5350 3500 60  0001 C CNN "Fieldname2"
+F 6 "Value3" H 5350 3500 60  0001 C CNN "Fieldname3"
+	1    5350 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3000 5050 3000
+Wire Wire Line
+	5050 3000 5050 3150
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 3000 4600 2950
+Wire Wire Line
+	4600 3500 5250 3500
+Connection ~ 4600 3500
+Wire Wire Line
+	4600 3500 4600 3450
+$Comp
+L power:GNDA #PWR053
+U 1 1 5EC89ADB
+P 5050 4050
+F 0 "#PWR053" H 5050 3800 50  0001 C CNN
+F 1 "GNDA" H 5055 3877 50  0000 C CNN
+F 2 "" H 5050 4050 50  0001 C CNN
+F 3 "" H 5050 4050 50  0001 C CNN
+	1    5050 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4050 5050 3350
+$Comp
+L hm-env-sensor-rescue:4.7KOHM-1_10W-1%(0603)-SparkFun_BME280_Breakout_v10-eagle-import-ESP32-DevKit-Lipo_Rev_A1-rescue R?
+U 1 1 5EC8AD52
+P 5600 3250
+AR Path="/5EBC2AFC/5EC8AD52" Ref="R?"  Part="1" 
+AR Path="/5EC8AD52" Ref="R?"  Part="1" 
+AR Path="/5EC5C0AC/5EC8AD52" Ref="R27"  Part="1" 
+F 0 "R27" H 5450 3309 59  0000 L BNN
+F 1 "1M/R0603" H 5350 3100 59  0000 L BNN
+F 2 "OLIMEX_RLC-FP:R_0603_5MIL_DWS" H 5600 3250 50  0001 C CNN
+F 3 "" H 5600 3250 50  0001 C CNN
+	1    5600 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L hm-env-sensor-rescue:4.7KOHM-1_10W-1%(0603)-SparkFun_BME280_Breakout_v10-eagle-import-ESP32-DevKit-Lipo_Rev_A1-rescue R?
+U 1 1 5EC8C036
+P 5600 3750
+AR Path="/5EBC2AFC/5EC8C036" Ref="R?"  Part="1" 
+AR Path="/5EC8C036" Ref="R?"  Part="1" 
+AR Path="/5EC5C0AC/5EC8C036" Ref="R28"  Part="1" 
+F 0 "R28" H 5450 3809 59  0000 L BNN
+F 1 "1M/R0603" H 5350 3600 59  0000 L BNN
+F 2 "OLIMEX_RLC-FP:R_0603_5MIL_DWS" H 5600 3750 50  0001 C CNN
+F 3 "" H 5600 3750 50  0001 C CNN
+	1    5600 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDA #PWR055
+U 1 1 5EC8C3C0
+P 5600 4050
+F 0 "#PWR055" H 5600 3800 50  0001 C CNN
+F 1 "GNDA" H 5605 3877 50  0000 C CNN
+F 2 "" H 5600 4050 50  0001 C CNN
+F 3 "" H 5600 4050 50  0001 C CNN
+	1    5600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3500 5600 3500
+Wire Wire Line
+	5600 3500 5600 3450
+Wire Wire Line
+	5600 3550 5600 3500
+Connection ~ 5600 3500
+Wire Wire Line
+	6200 3500 5600 3500
+Wire Wire Line
+	5600 3950 5600 4050
+$Comp
+L power:VDDA #PWR051
+U 1 1 5EC918D2
+P 4600 2450
+F 0 "#PWR051" H 4600 2300 50  0001 C CNN
+F 1 "VDDA" H 4615 2623 50  0000 C CNN
+F 2 "" H 4600 2450 50  0001 C CNN
+F 3 "" H 4600 2450 50  0001 C CNN
+	1    4600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR054
+U 1 1 5EC92923
+P 5600 2900
+F 0 "#PWR054" H 5600 2750 50  0001 C CNN
+F 1 "VDDA" H 5615 3073 50  0000 C CNN
+F 2 "" H 5600 2900 50  0001 C CNN
+F 3 "" H 5600 2900 50  0001 C CNN
+	1    5600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDDA #PWR062
+U 1 1 5EC92D38
+P 6900 3400
+F 0 "#PWR062" H 6900 3250 50  0001 C CNN
+F 1 "VDDA" H 6915 3573 50  0000 C CNN
+F 2 "" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3400 6900 3500
+Wire Wire Line
+	6900 3500 6800 3500
+Wire Wire Line
+	5600 2900 5600 3050
+Wire Wire Line
+	4600 2450 4600 2550
+$Comp
+L power:VDDA #PWR058
+U 1 1 5EC95953
+P 6200 2100
+F 0 "#PWR058" H 6200 1950 50  0001 C CNN
+F 1 "VDDA" H 6215 2273 50  0000 C CNN
+F 2 "" H 6200 2100 50  0001 C CNN
+F 3 "" H 6200 2100 50  0001 C CNN
+	1    6200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR059
+U 1 1 5EC95CDD
+P 6200 2750
+F 0 "#PWR059" H 6200 2500 50  0001 C CNN
+F 1 "GNDA" H 6205 2577 50  0000 C CNN
+F 2 "" H 6200 2750 50  0001 C CNN
+F 3 "" H 6200 2750 50  0001 C CNN
+	1    6200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L hm-env-sensor-rescue:C-OLIMEX_RCL-ESP32-DevKit-Lipo_Rev_A1-rescue C?
+U 1 1 5EC963E5
+P 6100 4550
+AR Path="/5EC963E5" Ref="C?"  Part="1" 
+AR Path="/5EC5C0AC/5EC963E5" Ref="C15"  Part="1" 
+F 0 "C15" V 6050 4325 50  0000 L CNN
+F 1 "10uF/C0603" V 6200 4250 25  0000 L CNN
+F 2 "OLIMEX_RLC-FP:C_0603_5MIL_DWS" H 6100 4550 60  0001 C CNN
+F 3 "" H 6100 4550 60  0000 C CNN
+F 4 "Value 1" H 6100 4550 60  0001 C CNN "Fieldname 1"
+F 5 "Value2" H 6100 4550 60  0001 C CNN "Fieldname2"
+F 6 "Value3" H 6100 4550 60  0001 C CNN "Fieldname3"
+	1    6100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L hm-env-sensor-rescue:C-OLIMEX_RCL-ESP32-DevKit-Lipo_Rev_A1-rescue C?
+U 1 1 5EC9676C
+P 6500 4150
+AR Path="/5EC9676C" Ref="C?"  Part="1" 
+AR Path="/5EC5C0AC/5EC9676C" Ref="C16"  Part="1" 
+F 0 "C16" V 6450 3925 50  0000 L CNN
+F 1 "100pF/C0603" V 6450 4200 25  0000 L CNN
+F 2 "OLIMEX_RLC-FP:C_0603_5MIL_DWS" H 6500 4150 60  0001 C CNN
+F 3 "" H 6500 4150 60  0000 C CNN
+F 4 "Value 1" H 6500 4150 60  0001 C CNN "Fieldname 1"
+F 5 "Value2" H 6500 4150 60  0001 C CNN "Fieldname2"
+F 6 "Value3" H 6500 4150 60  0001 C CNN "Fieldname3"
+	1    6500 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L hm-env-sensor-rescue:4.7KOHM-1_10W-1%(0603)-SparkFun_BME280_Breakout_v10-eagle-import-ESP32-DevKit-Lipo_Rev_A1-rescue R?
+U 1 1 5EC973A2
+P 6100 4150
+AR Path="/5EBC2AFC/5EC973A2" Ref="R?"  Part="1" 
+AR Path="/5EC973A2" Ref="R?"  Part="1" 
+AR Path="/5EC5C0AC/5EC973A2" Ref="R29"  Part="1" 
+F 0 "R29" H 5950 4209 59  0000 L BNN
+F 1 "1k/R0603" H 5850 4000 59  0000 L BNN
+F 2 "OLIMEX_RLC-FP:R_0603_5MIL_DWS" H 6100 4150 50  0001 C CNN
+F 3 "" H 6100 4150 50  0001 C CNN
+	1    6100 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L hm-env-sensor-rescue:4.7KOHM-1_10W-1%(0603)-SparkFun_BME280_Breakout_v10-eagle-import-ESP32-DevKit-Lipo_Rev_A1-rescue R?
+U 1 1 5EC97C04
+P 6500 3900
+AR Path="/5EBC2AFC/5EC97C04" Ref="R?"  Part="1" 
+AR Path="/5EC97C04" Ref="R?"  Part="1" 
+AR Path="/5EC5C0AC/5EC97C04" Ref="R30"  Part="1" 
+F 0 "R30" H 6350 3959 59  0000 L BNN
+F 1 "20k/R0603" H 6250 3750 59  0000 L BNN
+F 2 "OLIMEX_RLC-FP:R_0603_5MIL_DWS" H 6500 3900 50  0001 C CNN
+F 3 "" H 6500 3900 50  0001 C CNN
+	1    6500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR057
+U 1 1 5EC98AE2
+P 6100 4800
+F 0 "#PWR057" H 6100 4550 50  0001 C CNN
+F 1 "GNDA" H 6105 4627 50  0000 C CNN
+F 2 "" H 6100 4800 50  0001 C CNN
+F 3 "" H 6100 4800 50  0001 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+Text HLabel 7000 3700 2    50   Output ~ 0
+Analog_MIC
+Wire Wire Line
+	7000 3700 6900 3700
+$Comp
+L power:GNDA #PWR056
+U 1 1 5ECB2A91
+P 5900 3650
+F 0 "#PWR056" H 5900 3400 50  0001 C CNN
+F 1 "GNDA" H 5905 3477 50  0000 C CNN
+F 2 "" H 5900 3650 50  0001 C CNN
+F 3 "" H 5900 3650 50  0001 C CNN
+	1    5900 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3600 5900 3600
+Wire Wire Line
+	5900 3600 5900 3650
+Wire Wire Line
+	6200 3700 6100 3700
+Wire Wire Line
+	6100 3700 6100 3900
+Wire Wire Line
+	6100 3900 6250 3900
+Connection ~ 6100 3900
+Wire Wire Line
+	6100 3900 6100 3950
+Wire Wire Line
+	6400 4150 6250 4150
+Wire Wire Line
+	6250 4150 6250 3900
+Connection ~ 6250 3900
+Wire Wire Line
+	6250 3900 6300 3900
+Wire Wire Line
+	6600 4150 6900 4150
+Wire Wire Line
+	6900 4150 6900 3900
+Connection ~ 6900 3700
+Wire Wire Line
+	6900 3700 6800 3700
+Wire Wire Line
+	6700 3900 6900 3900
+Connection ~ 6900 3900
+Wire Wire Line
+	6900 3900 6900 3700
+Wire Wire Line
+	6100 4350 6100 4450
+Wire Wire Line
+	6100 4650 6100 4800
+$Comp
+L hm-env-sensor-rescue:GND-OLIMEX_Power-ESP32-DevKit-Lipo_Rev_A1-rescue #PWR?
+U 1 1 5ECC4B19
+P 6600 2750
+AR Path="/5ECC4B19" Ref="#PWR?"  Part="1" 
+AR Path="/5EC5C0AC/5ECC4B19" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 6600 2500 50  0001 C CNN
+F 1 "GND" H 6600 2610 50  0000 C CNN
+F 2 "" H 6600 2750 60  0000 C CNN
+F 3 "" H 6600 2750 60  0000 C CNN
+	1    6600 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L hm-env-sensor-rescue:+3.3V-OLIMEX_Power-ESP32-DevKit-Lipo_Rev_A1-rescue #PWR?
+U 1 1 5ECC4B1F
+P 6600 2100
+AR Path="/5ECC4B1F" Ref="#PWR?"  Part="1" 
+AR Path="/5EC5C0AC/5ECC4B1F" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 6600 1950 50  0001 C CNN
+F 1 "+3.3V" H 6600 2250 50  0000 C CNN
+F 2 "" H 6600 2100 60  0000 C CNN
+F 3 "" H 6600 2100 60  0000 C CNN
+	1    6600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB2
+U 1 1 5ECCBA16
+P 6400 2700
+F 0 "FB2" V 6637 2700 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 6546 2700 50  0000 C CNN
+F 2 "OLIMEX_RLC-FP:L_0603_5MIL_DWS" V 6330 2700 50  0001 C CNN
+F 3 "~" H 6400 2700 50  0001 C CNN
+	1    6400 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB1
+U 1 1 5ECCC20B
+P 6400 2300
+F 0 "FB1" V 6637 2300 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 6546 2300 50  0000 C CNN
+F 2 "OLIMEX_RLC-FP:L_0603_5MIL_DWS" V 6330 2300 50  0001 C CNN
+F 3 "~" H 6400 2300 50  0001 C CNN
+	1    6400 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6600 2100 6600 2300
+Wire Wire Line
+	6600 2300 6500 2300
+Wire Wire Line
+	6300 2300 6200 2300
+Wire Wire Line
+	6200 2300 6200 2100
+Wire Wire Line
+	6200 2750 6200 2700
+Wire Wire Line
+	6200 2700 6300 2700
+Wire Wire Line
+	6500 2700 6600 2700
+Wire Wire Line
+	6600 2700 6600 2750
+Text Notes 6200 4350 0    50   ~ 0
+Gain=1 + R30/R29 
+$Comp
+L power:PWR_FLAG #FLG04
+U 1 1 5EEBDA2A
+P 5850 2100
+F 0 "#FLG04" H 5850 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 5850 2273 50  0000 C CNN
+F 2 "" H 5850 2100 50  0001 C CNN
+F 3 "~" H 5850 2100 50  0001 C CNN
+	1    5850 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2100 5850 2300
+Wire Wire Line
+	5850 2300 6200 2300
+Connection ~ 6200 2300
+$Comp
+L power:PWR_FLAG #FLG05
+U 1 1 5EEBEA0C
+P 5850 2600
+F 0 "#FLG05" H 5850 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 5850 2773 50  0000 C CNN
+F 2 "" H 5850 2600 50  0001 C CNN
+F 3 "~" H 5850 2600 50  0001 C CNN
+	1    5850 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2600 5850 2700
+Wire Wire Line
+	5850 2700 6200 2700
+Connection ~ 6200 2700
+Text Notes 4550 1650 0    79   ~ 0
+Analog Microphone\n
+$EndSCHEMATC

@@ -1,8 +1,0 @@
-### Module positions - created on 2019-09-23 21:31:30 ###
-### Printed by Pcbnew version kicad (5.1.2)-2
-## Unit = mm, Angle = deg.
-## Side : bottom
-# Ref     Val       Package                PosX       PosY       Rot  Side
-EXT1      HN1x19    HN1x19              -1.2700    25.4000  270.0000  bottom
-EXT2      HN1x19    HN1x19             -26.6700    25.4000  270.0000  bottom
-## End

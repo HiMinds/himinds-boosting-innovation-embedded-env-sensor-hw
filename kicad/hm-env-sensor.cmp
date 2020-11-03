@@ -1,0 +1,763 @@
+Cmp-Mod V01 Created by PcbNew   date = mån 29 jun 2020 21:34:38
+
+BeginCmp
+TimeStamp = 5EF96BD8
+Path = /5EBC2AFC/5EBC6895
+Reference = U7;
+ValeurCmp = BQ27441-G1;
+IdModule  = hm-env-sensor:PDSO-N12;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EF943E1
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = hm-env-sensor:LOGO_OPENHARDWARE_8x8;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE62BD8
+Path = /5EDE049A/5EE0F60C
+Reference = USB-UART1;
+ValeurCmp = MISB-SWMM-5B-LF(USB_MICRO);
+IdModule  = hm-env-sensor:USB_Micro_B_Male_UJ2-MIBH-4-SMT-TR;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6464F
+Path = 
+Reference = MountingHole*;
+ValeurCmp = Mounting_hole_3.3mm;
+IdModule  = OLIMEX_Other-FP:Mounting_hole_3.3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6464F
+Path = 
+Reference = MountingHole*;
+ValeurCmp = Mounting_hole_3.3mm;
+IdModule  = OLIMEX_Other-FP:Mounting_hole_3.3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE614CB
+Path = /5EEAAF9D/5EDF2C8A
+Reference = U11;
+ValeurCmp = TPS61202DRC;
+IdModule  = Package_SON:Texas_S-PVSON-N10_ThermalVias;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6148F
+Path = /5EC5C0AC/5EC28B35
+Reference = U10;
+ValeurCmp = MAX4466;
+IdModule  = Package_TO_SOT_SMD:SOT-353_SC-70-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6147A
+Path = /5EEAAF9D/5EEC5B7E
+Reference = U9;
+ValeurCmp = SY8089AAAC(SOT23-5);
+IdModule  = OLIMEX_Regulators-FP:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6146D
+Path = /5EC57146/5ED6F3E8
+Reference = U8;
+ValeurCmp = MH-Z19B;
+IdModule  = hm-env-sensor:MH-Z19B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6145E
+Path = /5EB88B9B/5EB7243B
+Reference = U6;
+ValeurCmp = BME680;
+IdModule  = Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE613C4
+Path = /5EEAAF9D/5EEC5C26
+Reference = U4;
+ValeurCmp = BL4054B-42TPRN(SOT23-5);
+IdModule  = OLIMEX_IC-FP:SOT-23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE613B7
+Path = /5EDE049A/5EE0F6B4
+Reference = U3;
+ValeurCmp = BAT54C(SOT23-3);
+IdModule  = OLIMEX_Diodes-FP:SOT23-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6138E
+Path = /5EDE049A/5EE0F606
+Reference = U2;
+ValeurCmp = CH340T(SSOP20W);
+IdModule  = OLIMEX_IC-FP:SSOP-20W;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61370
+Path = /5ED177A1/5ECD8C94
+Reference = U1;
+ValeurCmp = ADXL345;
+IdModule  = Package_LGA:LGA-14_3x5mm_P0.8mm_LayoutBorder1x6y;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61311
+Path = /5EEAAF9D/5EE82D19
+Reference = R33;
+ValeurCmp = NA/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE612FE
+Path = /5EEAAF9D/5EE8C32B
+Reference = R32;
+ValeurCmp = NA/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE612EB
+Path = /5EEAAF9D/5EE27523
+Reference = R31;
+ValeurCmp = 10k;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE612D8
+Path = /5EC5C0AC/5EC97C04
+Reference = R30;
+ValeurCmp = 20k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE612C5
+Path = /5EC5C0AC/5EC973A2
+Reference = R29;
+ValeurCmp = 1k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE612B2
+Path = /5EC5C0AC/5EC8C036
+Reference = R28;
+ValeurCmp = 1M/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6129F
+Path = /5EC5C0AC/5EC8AD52
+Reference = R27;
+ValeurCmp = 1M/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61268
+Path = /5EC5C0AC/5EC547B6
+Reference = R25;
+ValeurCmp = 1k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61231
+Path = /5EC5C0AC/5EC555EB
+Reference = R23;
+ValeurCmp = 1k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE611FA
+Path = /5EEAAF9D/5EEC5B9A
+Reference = R21;
+ValeurCmp = 1.1k/1%/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE611E7
+Path = /5EBC2AFC/5EBC68DE
+Reference = R20;
+ValeurCmp = 4.7k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE611D4
+Path = /5EBC2AFC/5EBC68B2
+Reference = R19;
+ValeurCmp = 10k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE611C1
+Path = /5EBC2AFC/5EBC689C
+Reference = R18;
+ValeurCmp = 0.01/1%/R1206;
+IdModule  = OLIMEX_RLC-FP:R_1206_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE611B1
+Path = /5EB88B9B/5EB90FE9
+Reference = R17;
+ValeurCmp = 4.7k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6119E
+Path = /5EC3881B
+Reference = R16;
+ValeurCmp = 4.7k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6118B
+Path = /5EC38815
+Reference = R15;
+ValeurCmp = 4.7k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61130
+Path = /5EEAAF9D/5EEC5B91
+Reference = R12;
+ValeurCmp = 4.99k/1%/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6111D
+Path = /5EEAAF9D/5EEC5BE5
+Reference = R11;
+ValeurCmp = NA/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6110A
+Path = /5EEAAF9D/5EEC5C30
+Reference = R10;
+ValeurCmp = 2.2k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE610F7
+Path = /5EEAAF9D/5EEC5C7A
+Reference = R9;
+ValeurCmp = 10k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE610E4
+Path = /5EEAAF9D/5EF96924
+Reference = R8;
+ValeurCmp = 4.7k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE610D1
+Path = /5EEAAF9D/5EEC5C68
+Reference = R7;
+ValeurCmp = 10k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE610BE
+Path = /5EDE049A/5EE0F6AE
+Reference = R6;
+ValeurCmp = 220R/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE610AB
+Path = /5EDE049A/5EE0F68D
+Reference = R5;
+ValeurCmp = 1k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61098
+Path = /5EDE049A/5EE0F67E
+Reference = R4;
+ValeurCmp = 1k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61085
+Path = /5EDE049A/5EE0F66D
+Reference = R3;
+ValeurCmp = 220R/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61072
+Path = /5EDE049A/5EE0F664
+Reference = R2;
+ValeurCmp = 220R/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6105F
+Path = /5F0B2CA4
+Reference = R1;
+ValeurCmp = 330/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6104C
+Path = /5EDE049A/5EE0F684
+Reference = Q3;
+ValeurCmp = BC817-40(SOT23);
+IdModule  = OLIMEX_Transistors-FP:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61039
+Path = /5EDE049A/5EE0F675
+Reference = Q2;
+ValeurCmp = BC817-40(SOT23);
+IdModule  = OLIMEX_Transistors-FP:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE61026
+Path = /5EDE049A/5EE0F71B
+Reference = Q1;
+ValeurCmp = Q12MHz/20pF/10ppm/4P/3.2x2.5mm;
+IdModule  = OLIMEX_Crystal-FP:TSX-3.2x2.5mm_GND(3);
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6100E
+Path = /5EEAAF9D/5EEC5C90
+Reference = PWRLED1;
+ValeurCmp = LED/GREEN/0603;
+IdModule  = OLIMEX_LEDs-FP:LED_0603_KA;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60FEE
+Path = /5EC5C0AC/5EC284CD
+Reference = MK1;
+ValeurCmp = Microphone;
+IdModule  = hm-env-sensor:MIC_CMA-4544PF-W;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60FE3
+Path = /5EEAAF9D/5EE19EB9
+Reference = L2;
+ValeurCmp = LPS3015-222ML;
+IdModule  = Inductor_SMD:L_Wuerth_MAPI-3015;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60FD2
+Path = /5EEAAF9D/5EEC5B88
+Reference = L1;
+ValeurCmp = 2.2uH/1.5A/DCR<0.1R/CD32;
+IdModule  = OLIMEX_RLC-FP:CD32;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60FC5
+Path = /5EEC9414
+Reference = J1;
+ValeurCmp = Conn_01x12;
+IdModule  = OLIMEX_Connectors-FP:PN1x12;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60FB0
+Path = /5EDE049A/5EE0F600
+Reference = GND1;
+ValeurCmp = TESTPAD;
+IdModule  = OLIMEX_Other-FP:TESTPAD_40-ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60FA1
+Path = /5EF14668
+Reference = FID2;
+ValeurCmp = Fiducial;
+IdModule  = OLIMEX_Other-FP:Fiducial1x3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60F9B
+Path = /5EF149F3
+Reference = FID1;
+ValeurCmp = Fiducial;
+IdModule  = OLIMEX_Other-FP:Fiducial1x3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60F95
+Path = /5EEAAF9D/5EEC5BCD
+Reference = FET1;
+ValeurCmp = WPM2015-3/TR;
+IdModule  = OLIMEX_Transistors-FP:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60F82
+Path = /5EC5C0AC/5ECCBA16
+Reference = FB2;
+ValeurCmp = Ferrite_Bead_Small;
+IdModule  = OLIMEX_RLC-FP:L_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60F74
+Path = /5EC5C0AC/5ECCC20B
+Reference = FB1;
+ValeurCmp = Ferrite_Bead_Small;
+IdModule  = OLIMEX_RLC-FP:L_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60F66
+Path = /5EDE049A/5EE0F715
+Reference = D_Com1;
+ValeurCmp = TESTPAD;
+IdModule  = OLIMEX_Other-FP:TESTPAD_40-ROUND;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60EE5
+Path = /5EEAAF9D/5EEC5BC4
+Reference = D2;
+ValeurCmp = 1N5822/SS34/SMA;
+IdModule  = OLIMEX_Diodes-FP:SMA-KA;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60ED7
+Path = /5EEAAF9D/5EEC5C56
+Reference = D1;
+ValeurCmp = 1N5822/SS34/SMA;
+IdModule  = OLIMEX_Diodes-FP:SMA-KA;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60EC9
+Path = /5ED4E4C2
+Reference = CHARGING1;
+ValeurCmp = LED/YELLOW/0603;
+IdModule  = OLIMEX_LEDs-FP:LED_0603_KA;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60EA9
+Path = /5EEAAF9D/5EDF9BEE
+Reference = C21;
+ValeurCmp = 10uF/6.3V/X7R/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60E96
+Path = /5EEAAF9D/5EDF9743
+Reference = C20;
+ValeurCmp = 10uF/6.3V/X7R/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60E83
+Path = /5EEAAF9D/5EDF9A17
+Reference = C19;
+ValeurCmp = 1uF/6.3V/X7R/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60E70
+Path = /5EEAAF9D/5EDF94F0
+Reference = C18;
+ValeurCmp = 10uF/6.3V/X7R/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60E5D
+Path = /5EEAAF9D/5EEC5C4C
+Reference = C17;
+ValeurCmp = 47uF/6.3V/20%/X5R/C0805;
+IdModule  = OLIMEX_RLC-FP:C_0805_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60E4A
+Path = /5EC5C0AC/5EC9676C
+Reference = C16;
+ValeurCmp = 100pF/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60E37
+Path = /5EC5C0AC/5EC963E5
+Reference = C15;
+ValeurCmp = 10uF/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60E24
+Path = /5EC5C0AC/5EC88D42
+Reference = C14;
+ValeurCmp = 10nF/50V/20%/Y5V/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60E11
+Path = /5EC5C0AC/5EC8548F
+Reference = C13;
+ValeurCmp = 100nF/50V/20%/Y5V/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60DFE
+Path = /5EEAAF9D/5EEC5BEF
+Reference = C12;
+ValeurCmp = 47uF/6.3V/20%/X5R/C0805;
+IdModule  = OLIMEX_RLC-FP:C_0805_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60DEB
+Path = /5EBC2AFC/5EBC68BD
+Reference = C11;
+ValeurCmp = 0.47uF/50V/20%/Y5V/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60DD8
+Path = /5EBC2AFC/5EBC68A8
+Reference = C10;
+ValeurCmp = 1.0uF/16V/10%/Y5V/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60DC5
+Path = /5EB88B9B/5EC32B14
+Reference = C9;
+ValeurCmp = 100nF/50V/20%/Y5V/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60DB2
+Path = /5EB88B9B/5EC32B0E
+Reference = C8;
+ValeurCmp = 100nF/50V/20%/Y5V/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60D9F
+Path = /5EEAAF9D/5EEC5B5D
+Reference = C7;
+ValeurCmp = 47uF/6.3V/20%/X5R/C0805;
+IdModule  = OLIMEX_RLC-FP:C_0805_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60D8C
+Path = /5EDE049A/5EE0F62B
+Reference = C6;
+ValeurCmp = 100nF/50V/20%/Y5V/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60D79
+Path = /5EDE049A/5EE0F61C
+Reference = C5;
+ValeurCmp = 22uF/6.3V/20%/X5R/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60D66
+Path = /5EDE049A/5EE0F649
+Reference = C4;
+ValeurCmp = 27pF/50V/5%/C0G/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60D53
+Path = /5EDE049A/5EE0F640
+Reference = C3;
+ValeurCmp = 27pF/50V/5%/C0G/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60D40
+Path = /5ED177A1/5ED4C91E
+Reference = C2;
+ValeurCmp = 100nF/50V/20%/Y5V/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60D2D
+Path = /5ED177A1/5ED4C918
+Reference = C1;
+ValeurCmp = 4.7uF/50V/20%/Y5V/C0603;
+IdModule  = OLIMEX_RLC-FP:C_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE60D1A
+Path = /5EEAAF9D/5EEC5BD6
+Reference = BAT1;
+ValeurCmp = DW02S;
+IdModule  = OLIMEX_Connectors-FP:LIPO_BAT-CON2DW02R;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE6462A
+Path = 
+Reference = MountingHole*;
+ValeurCmp = Mounting_hole_3.3mm;
+IdModule  = OLIMEX_Other-FP:Mounting_hole_3.3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE64672
+Path = 
+Reference = MountingHole*;
+ValeurCmp = Mounting_hole_3.3mm;
+IdModule  = OLIMEX_Other-FP:Mounting_hole_3.3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D866195
+Path = /5D6A530E
+Reference = RST1;
+ValeurCmp = IT-1185AU2-160G-G-TR;
+IdModule  = OLIMEX_Buttons-FP:IT1185AU2_V2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D8661A6
+Path = /5D3480CF
+Reference = RST2;
+ValeurCmp = IT-1185AU2-160G-G-TR;
+IdModule  = OLIMEX_Buttons-FP:IT1185AU2_V2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4CAF78
+Path = /5E1BFBF2
+Reference = FID3;
+ValeurCmp = Fiducial;
+IdModule  = OLIMEX_Other-FP:Fiducial1x3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4F086A
+Path = /58292085
+Reference = R13;
+ValeurCmp = 1k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B4C5387
+Path = /58DC0F9B
+Reference = R14;
+ValeurCmp = NA/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EE64979
+Path = /5821F429
+Reference = U5;
+ValeurCmp = ESP-WROOM-32;
+IdModule  = OLIMEX_Cases-FP:ESP-WROOM-32_MODULE;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D8660BC
+Path = /5D54C79F
+Reference = D4;
+ValeurCmp = LED/GREEN/0603;
+IdModule  = OLIMEX_LEDs-FP:LED_0603_KA;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D8660DC
+Path = /5D573B47
+Reference = D6;
+ValeurCmp = LED/RED/0603;
+IdModule  = OLIMEX_LEDs-FP:LED_0603_KA;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D8772AD
+Path = /5D54C7B3
+Reference = R22;
+ValeurCmp = 330/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D866171
+Path = /5D573B5B
+Reference = R24;
+ValeurCmp = 330/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5D866184
+Path = /5D4BB4FD
+Reference = R26;
+ValeurCmp = 10k/R0603;
+IdModule  = OLIMEX_RLC-FP:R_0603_5MIL_DWS;
+EndCmp
+
+EndListe

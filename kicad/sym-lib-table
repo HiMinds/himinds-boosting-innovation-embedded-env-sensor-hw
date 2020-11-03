@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name hm-env-sensor)(type Legacy)(uri ${KIPRJMOD}/hm-env-sensor.lib)(options "")(descr ""))
   (lib (name hm-env-sensor-rescue)(type Legacy)(uri ${KIPRJMOD}/hm-env-sensor-rescue.lib)(options "")(descr ""))
+  (lib (name extra_symbols)(type Legacy)(uri "/home/johan/Insync/johan@beaverelectronics.com/Google Drive/BEAB/Clients/Squix78/ThingPulse 4.2” ESPaper Module ESP32/Symbols/extra_symbols.lib")(options "")(descr ""))
 )
