@@ -17,6 +17,8 @@ The second generation of the hardware is based on the first version of the hardw
 
 The project is described in our [Medium articles](https://medium.com/himinds/himinds-wireless-environmental-sensor-gen-2-part-1-requirements-37ee416b31b).
 
+The enclosure is called CBRS01VWH and is made by CamdenBoss. 
+
 ## Rev A
 
 The first version of the hardware, was based on the work done by OLIMEX. Link to their [project page](https://github.com/OLIMEX/ESP32-DevKit-LiPo)
