@@ -28,8 +28,9 @@ For other credits please refer to our [Medium ariticles](https://medium.com/himi
 
 ## Open Source Hardware
 The hardware is certified by OSHWA’s Open Source Hardware Certification program.
-It is the first certification given to a Swedish project. Link to [OSHWA certification](
-https://certification.oshwa.org/se000001.html).
+It is the first certification given to a Swedish project. 
+* Rev A (Version 1.0) [OSHWA certification](https://certification.oshwa.org/se000001.html)
+* Rev B (Version 2.0) [OSHWA certification](https://certification.oshwa.org/se000007.html)
 
 ![](./pics/oshw-logo-200-px.png)
 
