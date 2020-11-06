@@ -17,7 +17,7 @@ The second generation of the hardware is based on the first version of the hardw
 
 The project is described in our [Medium articles](https://medium.com/himinds/himinds-wireless-environmental-sensor-gen-2-part-1-requirements-37ee416b31b).
 
-The enclosure is called CBRS01VWH and is made by CamdenBoss. 
+The enclosure is called CBRS01VWH and is made by [CamdenBoss](https://www.camdenboss.com/). 
 
 ## Rev A
 
