@@ -4,7 +4,7 @@ HiMinds Open Source Wireless Environmental Sensor HW.
 ![](./pics/hand.png)
 
 
-## Rev B
+## Rev B (G2)
 The second generation of the hardware is based on the first version of the hardware but we have made several improvements. It is a rechargeable battery-operated wireless sensor that can measure:
 
 * Carbon dioxide (CO₂) levels
@@ -19,7 +19,7 @@ The project is described in our [Medium articles](https://medium.com/himinds/him
 
 The enclosure is called CBRS01VWH and is made by [CamdenBoss](https://www.camdenboss.com/). 
 
-## Rev A
+## Rev A (G1)
 
 The first version of the hardware, was based on the work done by OLIMEX. Link to their [project page](https://github.com/OLIMEX/ESP32-DevKit-LiPo)
 For other credits please refer to our [Medium ariticles](https://medium.com/himinds/open-source-wireless-environmental-sensor-part-1-requirements-8598c5b5f503).
